@@ -1,18 +1,20 @@
 # Header
 
 menu:
-  主页: /
-  随笔: /tags/随笔/
+  # 首页: /
+  目录: /categories/目录/index.html
+  相册: /categories/相册/index.html
+  # 关于: /categories/关于/guanyu.md
 
-# SubNav
+# SubNav:子导航
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/fantingting"
+  weibo: "http://weibo.com/5616933450/profile?topnav=1&wvr=6"
+  #rss: "#"
+  zhihu: "https://www.zhihu.com/people/fighting9294/activities"
   #qq: "#"
   #weixin: "#"
-  #jianshu: "#"
+  jianshu: "http://www.jianshu.com/users/ac2ff97d39d3/timeline"
   #douban: "#"
   #mail: "mailto:litten225@qq.com"
   #facebook: "#"
@@ -30,11 +32,14 @@ root:
 # Content
 
 # 文章太长，截断按钮文字
-excerpt_link: more
+excerpt_link: 阅读原文
+fancybox: true
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
+# 是否开启动画效果
+animate: true
 # 数学公式
-mathjax: false
+mathjax: true
 # 是否在新窗口打开链接
 open_in_new: false
 
@@ -44,11 +49,11 @@ open_in_new: false
 # 打赏基础设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-reward_wording: '谢谢你请我吃糖果'
+reward_wording: '拔牙后喝奶好费钱~~谢谢打赏！'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+# alipay: /assets/img/alipay.jpg
 # 微信二维码图片地址
-weixin: 
+weixin: /assets/img/wxpay.png
 
 # Miscellaneous
 baidu_analytics: ''
@@ -56,14 +61,16 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
-
+avatar: /assets/img/avatar.png
 #是否开启分享
 share_jia: true
 
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
-duoshuo: false
+duoshuo: true
+# 是否开启云标签
+# tagcloud: true
+tagcloud: true
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
@@ -83,16 +90,16 @@ slider:
 #smart_menu:
 #  friends: false
 smart_menu:
-  innerArchive: '所有文章'
+  # innerArchive: '所有文章'
   friends: '友链'
   aboutme: '关于我'
 
-friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
+friends: 
+  简书: http://www.jianshu.com/users/ac2ff97d39d3/timeline
+  知乎: https://www.zhihu.com/people/fighting9294/activities
+  微博: http://weibo.com/5616933450/profile?topnav=1&wvr=6
   友情链接4: http://localhost:4000/
   友情链接5: http://localhost:4000/
   友情链接6: http://localhost:4000/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 范婷婷<br><br>毕业于：徐州工程学院<br>现任职：上海维秀科技有限公司<br><br>2017目标：<br>1、绣好一副十字绣并装裱挂在卧室床头；<br>2、熟练英语口语，结实一位外国友人；<br>3、痘印减淡，不再长大痘痘；<br>4、买好一台Mac；<br>5、博客和公众号同步，写点有意义的文章；<br>6、保持在100斤，习惯喝茶，习惯运动，不习惯犯懒。<br><br>16走来，17成长，Fighting！
